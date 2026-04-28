@@ -21,7 +21,7 @@ pinMode(_ledPin, OUTPUT);
 }
 int Blinker::handle(){
   int retVal = false;
-  unsigend long nu = millis();
+  unsigned long nu = millis();
 
   if (nu >= _volgendeBlinkOm) {
     _volgendeBlinkOm = nu + _blinkInterval;
