@@ -2,7 +2,7 @@
 #include "Blinker.h"
 
 // Klasse-implementatie
-Blinker::Blinker(unsigned int ledPin, unsigned long blinkInterval){
+Blinker::Blinker(unsigned int ledPin, unsigned long blinkInterval,const long startDelay){
   _ledPin = ledPin;
   _blinkInterval = blinkInterval;
   _volgendeBlinkOm = 0;
